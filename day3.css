@@ -1,0 +1,73 @@
+/* flex box */
+/*#flex-container
+display:flex;
+flex-direction: row/column/column-reverse/row-reverse
+flex-wrap:by default nowrap | wrap/reverse-wrap
+flex-flow: it contain both wrap and direction: row wrap
+gap:it creat space between containers item
+justify-content: it is used to controll items in container horizontally
+                #flex-start:it start the item from starting point of flex
+                #flex-end: is starts the items flex from end point of flex
+                #space-between: it creat vertical space between column items
+                #center: it make the container items on the center
+align-item: it is used to controll items vertically
+            #flex-start: it start the item from vartical starting point of flex
+            #flex-end:is starts the items flex from vertical end point of flex
+            #space-between:it creat space between row items
+            #center:it make the item on center
+            #baseline: it make it equal line 
+###justify and align is depend on the flex-direction they are always oposite
+##default value
+flex-direction: row
+flex-wrap: nowrap
+justify-content:start
+align-item: flex-start
+*/
+
+/*flex-item
+
+#order: to place item deferently -1 make it first 1 make it last
+#align-self: used for single item
+#justify-self:used for single item
+#flex-grow: is there is space in container it give it to the selected item 0/1
+#flex-shrink: it made the items size not to be more than containers size it works when there is no enogh space for items 1/0
+#flex-base: it make it fixed or auto 
+#flex: 0 1 auto it is the short hand use of the above three 
+
+*/
+
+
+
+
+
+
+
+.A{
+  background-color: blue;
+  width:100px;
+  height:100px;
+  order:1;
+  /* flex-grow:1; */
+}
+.B{
+  background-color:black;
+  width:100px;
+  height:100px;
+}
+.C{
+  background-color:green;
+  width:100px;
+  height:100px;
+  align-self:flex-start;
+}
+
+div{
+
+  display:flex;
+  border:3px solid black;
+  height:200px;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  align-items: end;
+  /* flex-grow:1; */
+}

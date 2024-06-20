@@ -1,0 +1,157 @@
+/* #style: inline style: <h1 style="color:red;"
+            internal sstyle: on the head part style{}
+            external style: crweating external file and connecting it in the head part by <link hre="filename" rel="stylesheet"*
+/*type selecter: id: giving id by id atribute and calling it by #id name 
+                 class: giving class and calling it by .claaname
+                calling it by its tag */
+/* selecter power  or casced
+#inline > class > id > tag 
+# (specification 0,0,1 
+# rule order: the one which the last is aplaid*/
+ 
+/* boxing model
+padding: space b/n content and border
+margin:sace b/n d/t content
+*/
+
+/* block and inline element
+#block: it tskes the whole horzontal pplace or it canot take other element beside it
+#inline: it takes only contents width 
+
+# to interchange one to another we use display property
+display:inline
+display: block
+display:inline-block
+
+*/
+
+/* deference b/n span and div
+#div: is block level element which meanse it take the whole width
+#span: is inline element which means it takes only contents width
+*/
+
+/* box-sizing:width, height
+box-sizing: content-box: means it donot contain padding and border
+box-sizing: border-box: means it contain padding and border
+*/
+/* sudo class: and psudo element:: */ 
+/* display element
+# inline: contain only content width canot change haight and width
+#block:full width can change both
+#inline-block: it contain containers width and height but we can change both
+*/
+
+/* semantic and neutral tag or container
+
+semantic: it is container that have meaning for both developer and browser example table
+neutral: it donot have mening example div*/
+
+/* position
+static: default position of element whicj=h is top right
+relative: we can apply top bottom right and left positioning
+absolute:out of flow 
+fixed: to fix somthing on that position it may overlap the other
+sticky: starts where it is and stop when it reach some place like top:10px
+*/
+
+/* for text */
+
+ .h{
+  font-size: 20px;
+  font-family:sans-serif;
+  font-weight:bold;
+  color:red;
+  width:200vw;
+  height:100px;
+  text-align: center;
+  line-height: 1.5;
+ }
+
+
+ h1{
+  color:burlywood
+ }
+.body{
+  background-color: rgb(115, 122, 115);
+  width:600px;
+  margin:0 auto;
+}
+div{
+  border:3px solid #345678;
+  padding-top:50px;
+  padding:5px 10px 7px 8px;
+  padding: 10px 20px;
+}
+div p{
+  margin-bottom: 100px;
+  margin:5px 4px;
+  margin:5px 3px 7px 10px;
+}
+
+a:link{
+  text-decoration: none;
+  background-color: green;
+  border-radius: 8px;
+  padding: 10px;
+  margin:10px;
+  display:inline-block;
+
+}
+
+
+
+a:visited{
+  background-color:gray;
+}
+a:hover{
+  background-color: blueviolet;
+  font-weight:000;
+  font-style:italic;
+}
+a:active{
+  background-color: #345678;
+}
+/* input{
+  
+  background-color: rgb(115, 122, 115);
+
+} */
+input:focus{
+  outline: none;
+  border:none;
+  border-bottom: 2px solid green;
+}
+h1::before{
+  content:"hey, "
+  
+}
+
+.inline{
+  border:3px solid #226;
+  width:100px;
+  height:100px
+}
+.block{
+  width:100px;
+  height:50px;
+  margin-top:10px;
+  box-shadow: 4px 4px 8px blue;
+}
+img{
+  width:100px;
+  height:100px;
+}
+
+.h1{
+  color:green;
+}
+
+.fix{
+  position:fixed;
+  margin-left:300px;
+}
+
+.stick{
+  position: sticky;
+  top:10px;
+}

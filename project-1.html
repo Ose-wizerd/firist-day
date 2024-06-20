@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    *{
+      padding:0;
+      margin:0;
+    }
+body{
+  background-color:#dff0428a;
+  width:auto;
+  /* margin:0 auto; */
+}
+.mid{
+  width:800px;
+  /* background-color: red; */
+  margin: 10px auto;
+}
+.image1{
+  width: 100%;
+  height: 130px;
+  margin-bottom: 10px;
+  border-radius:15px;
+}
+.cont1{
+   border: 3px solid#5456 ;
+   border-top:15px solid rgb(230, 177, 6);
+   margin-bottom:15px;
+   background-color: beige;
+   border-radius: 15px;
+}
+h1{
+  font-family: sans-serif;
+  font-size:45px;
+  padding:20px;
+}
+h1+p{
+  margin-bottom: 5px;;
+  font-size: 22px;
+  padding:15px;
+}
+h1+p+hr{
+  margin-bottom: 5px;
+  /* color:#5456; */
+}
+a{
+  text-decoration: none;
+  color:rgba(0, 0, 255, 0.884);
+  display: block;
+  margin-bottom: 5px;
+}
+.redp{
+  color:red;
+  padding:10px;
+}
+.ap{
+  font-size:18px;
+  padding: 15px;;
+}
+
+.cont2{
+  border: 3px solid#5456 ;
+  background-color: beige;
+  border-radius:15px;
+
+}
+.cont2 p{
+  font-size:18px;
+  font-family: sans-serif;
+  padding:15px;
+}
+.red{
+  color:red;
+  margin:3px;
+}
+#check{
+  margin:5px;
+  
+}
+.record{
+  padding:15px;
+}
+
+.cont3{
+  background-color: beige;
+  border:3px solid#5456 ;
+  margin: 15px 0;
+  padding:15px;
+  border-radius: 15px;;
+}
+
+.cont3 h6{
+  font-size:25px;
+  padding-left: 15px;
+  border-radius:15px;
+}
+.image2{
+  width:100%;
+  height:auto;
+}
+.cont3 input[type="text"]{
+  padding-top: 15px;
+  border:none;
+  background-color: beige;
+  width:100%;
+  outline: none;
+  border-bottom: 3px solid #ddd;
+  padding-bottom: 5px;
+  font-size: 18px;
+
+}
+
+.cont3 input[type="text"]::placeholder{
+  
+  font-size:18px;
+}
+.cont3 input[type="text"]:focus{
+  border-bottom-color:#b87e03 ;
+}
+
+.cont4{
+  background-color: beige;
+  border:3px solid#5456 ;
+  margin: 15px 0;
+  padding:15px;
+  border-radius: 15px;;
+}
+.cont4 input[type="text"]{
+  padding-top: 15px;
+  border:none;
+  background-color: beige;
+  width:100%;
+  outline: none;
+  border-bottom: 3px solid #ddd;
+  padding-bottom: 5px;
+  font-size: 18px;
+
+}
+.cont4 input[type="text"]:focus{
+  border-bottom-color:#b87e03 ;
+}
+
+.cont5{
+  background-color: beige;
+  border:3px solid#5456 ;
+  margin: 15px 0;
+  padding:15px;
+  border-radius:15px;
+}
+.cont5 input[type="text"]{
+  padding-top: 15px;
+  border:none;
+  background-color: beige;
+  width:100%;
+  outline: none;
+  border-bottom: 3px solid #ddd;
+  padding-bottom: 5px;
+  font-size: 18px;
+
+}
+.cont5 input[type="text"]:focus{
+  border-bottom-color:#b87e03 ;
+}
+.cont6{
+  background-color: beige;
+  border:3px solid#5456 ;
+  margin: 15px 0;
+  padding:15px;
+  border-radius:15px;
+}
+.cont6 h3{
+  font-size: 22px;
+}
+.cont6  input[type="text"]{
+  padding-top: 15px;
+  border:none;
+  background-color: beige;
+  width:100%;
+  outline: none;
+  border-bottom: 3px solid #ddd;
+  padding-bottom: 5px;
+  font-size: 18px;
+
+}
+.cont6 input[type="text"]:focus{
+  border-bottom-color:#b87e03 ;
+}
+
+.cont7{
+  background-color: beige;
+  border:3px solid#5456 ;
+  margin: 15px 0;
+  padding:15px;
+  border-radius:15px;
+}
+.acadamy{
+  font-size: 18px;
+  margin:5px;
+}
+.cont7 h3{
+  padding:15px;
+  font-size: 22px;
+}
+
+.cont8{
+  background-color: beige;
+  border:3px solid#5456 ;
+  margin: 15px 0;
+  padding:15px;
+  border-radius:15px;
+}
+.cont8 h3{
+  padding:15px;
+  font-size: 22px;
+}
+#no{
+  margin-right:5px;
+}
+
+#yes{
+  margin-right:5px;
+}
+.will{
+  font-size: 18px;;
+}
+
+.cont9{
+  background-color: beige;
+  border:3px solid#5456 ;
+  margin: 15px 0;
+  padding:15px;
+  border-radius: 15px;
+}
+.cont9 h3{
+  padding:15px;
+  font-size:22px;
+}
+.have{
+  margin-right:5px;
+}
+.con9{
+  font-size: 18px;;
+}
+
+.cont10{
+  background-color: beige;
+  border:3px solid#5456 ;
+  margin: 15px 0;
+  padding:15px;
+  border-radius: 15px;
+
+}
+.cont10 h3{
+  padding:15px;
+}
+.cont10 input[type="text"]{
+  padding-top: 15px;
+  border:none;
+  background-color: beige;
+  width:100%;
+  outline: none;
+  border-bottom: 3px solid #ddd;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+.cont10 input[type="text"]:focus{
+  border-bottom-color:#b87e03 ;
+}
+
+.cont11{
+  font-size:18px;
+  margin-bottom: 15px;
+  font-family: sans-serif;
+}
+#sub{
+  margin-right: 400px;
+  background-color: #b87e03;
+  color:#ffffff;
+  font-size:18px;
+  padding:5px 10px;
+  border:none;
+  border-radius: 8px;
+}
+
+#reset{
+  border:none;
+  background-color: #dff0428a;
+  font-size: 18px;
+  color:#b87e03;
+  outline: none;
+  
+
+}
+
+.cont8 input[type="radio"]:checked:after{
+  
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        position: relative;
+        background-color: #ffa500;
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+      }
+
+.cont9 input[type="radio"]:checked:after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        position: relative;
+        background-color: #ffa500;
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+      }
+.cont7 input[type="radio"]:checked:after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        position: relative;
+        background-color: #ffa500;
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+      }
+
+
+
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Registration Form</title>
+</head>
+
+<body>
+  
+  <div class="mid">
+    <img class="image1" src="pro-1.jpg" alt="image content"> 
+    <form action="">
+    <div class="cont1">
+      <h1>Registration <br>Form</h1>
+      <p>...15 Days Ultimate Web Dev Tutorial</p>
+      <hr>
+      <div class="ap">
+      <p class="example">Example@gmail.com</p>
+      <a href="#">Switch account</a></div>
+      <hr>
+      <p class="redp">*indicates required question</p>
+
+  </div>
+  
+ <div class="cont2">
+  <p>Email<span class="red">*</span></p>
+  <div class="record"><input type="checkbox" name="check" id="check"><label for="check">Record example@gmail.com as the email to be included with my response</label></div>
+ </div>
+
+ <div class="cont3">
+  <h6>Building a bright future, one step at a <br> time!</h6>
+  <img class="image2" src="project-1B.jpg" alt="imgae for web languages" width="175" height="175"><br>
+  <input type="text" name="text" id="text" placeholder="Your answer">
+ </div>
+
+ <div class="cont4" >
+  <h3>Full Name <span class="red">*</span></h3><br>
+  <input type="text" name="fname" id="fname" placeholder="Your answer" required>
+ </div>
+
+ <div class="cont5">
+    <h3>Telegram Username or phone <span class="red">*</span></h3><br>
+    <input type="text" name="tg" id="tg" placeholder="Your answer">
+</div>
+
+<div class="cont6">
+    <h3>Department <span class="red">*</span> </h3><br>
+    <input type="text" name="dep" id="dep" placeholder="Your answer">
+</div>
+
+<div class="cont7">
+
+  <h3>Academic Year <span class="red">*</span> </h3>
+
+   <div class="acca"> 
+    <input type="radio" name="year" id="first"> 
+    <label for="first" class="acadamy">First Year</label>
+   </div><br>
+   <div class="acca"><input type="radio" name="year" id="second">
+     <label for="second" class="acadamy">Second Year</label>
+   </div><br>
+   <div class="acca"><input type="radio" name="year" id="Third">
+    <label for="Third" class="acadamy">Third Year</label>
+   </div>
+</div>
+
+<div class="cont8">
+  <h3>will you consistently attend the <span class="red">*</span><br>Tutorial</h3>
+  <div class="will"> <input type="radio" name="attend" id="yes" required>
+    <label for="yes">Yes, Absolutely</label></div><br>
+ 
+  <div class="will"><input type="radio" name="attend" id="no">
+  <label for="no">Not always</label></div> 
+</div>
+
+<div class="cont9">
+  <h3>Have you ever taken any web <span class="red">*</span> <br>related course ?</h3>
+  <div class="con9">
+    <input type="radio" name="taken" id="yesi" class="have">
+    <label for="yesi">Yes, i have good foundation in web</label></div><br>
+ <div class="con9">
+  <input type="radio" name="taken" id="noi" class="have">
+  <label for="noi">No, Just starting by myself</label></div><br>
+ <div class="con9">
+  <input type="radio" name="taken" id="soon" class="have">
+  <label for="soon">Soon, i will go on internship with <br>web Development</label>
+</div>
+ </div>
+
+<div class="cont10">
+  <h3>Any message or idea-drop it here <span class="red">*</span> </h3>
+  <input type="text" name="idea" id="idea" placeholder="Your answer">
+</div>
+ 
+<div class="cont11">
+  <input type="checkbox" name="send" id="send">
+  <label for="send">Send me a copy of my response</label>
+</div>
+
+<div class="cont12">
+  <input type="submit" name="sub" id="sub">
+  <input type="reset" name="reset" value="Clear form" id="reset">
+
+</div>
+
+</form>
+
+</div>
+</body>
+</html>

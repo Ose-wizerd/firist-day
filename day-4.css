@@ -1,0 +1,65 @@
+/* background-color: liniear-gradiant(to bottom red black) */
+
+/* CSS-GRID */
+
+/* grid-line: line that divide the page
+grid-track: space between two grid line either row or column
+cell: 1 section of grid 
+  */
+/* wreten inside conteiner*/
+/* display:grid;*/
+
+/* define track
+# explicity
+grid-template-column: 100px 100px it creats two column with 100px width
+grid-template -row: 100px 50px it creats two row with 100 and 50px width
+grid-template: row/colimns
+
+#implicit (for newly added item )
+grid-auto-flow:default is row but we can change it to Column 
+*/
+
+/* column-gap:used betwen column 
+row-gap: used to make gap beetween row    
+grid-template-column: repeat(3, 1fr) fr is unit used to share the space equally
+justify-items:
+align-items
+place-items:
+
+justify-content:
+align-content:
+palce-content:
+
+grid-column:statrt/end it is used to place item b/n givin grid number
+grid-row: start/end it is place item iin a row b/n givin grid number
+grid-area: give for every element name and then in their parent container 
+grid-template-area: "one one one "
+                    "two three three"
+                    "two 
+ */
+ 
+
+
+
+
+
+.box{
+  width:100px;
+  height:50px;
+  display:grid;
+  /* grid-template-columns: 20px 20px; */
+  grid-template-columns: repeat(3,30px);
+}
+
+.A{
+  background-color:blue;
+  
+  
+}
+.B{
+  background-color: green;
+}
+.C{
+  background-color: black;
+}
+
